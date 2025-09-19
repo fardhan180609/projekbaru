@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background: white;
+}
+header {
+  display: flex;
+  padding: 10px;
+  background-color: limegreen;
+  justify-content: center;
+}
+footer {
+  background: limegreen;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+.container {
+  display: flex;
+}
+nav {
+  width: 180px;
+  background: #ccffcc; /* hijau muda */
+  padding: 10px;
+}
+
+nav a {
+  display: block;
+  padding: 8px;
+  margin: 5px 0;
+  text-decoration: none;
+  color: green;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background: limegreen;
+  color: white;
+}
+
+main {
+  flex: 1;
+  padding: 15px;
+}
